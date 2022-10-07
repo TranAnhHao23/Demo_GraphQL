@@ -2,8 +2,8 @@ const express = require('express')
 const {ApolloServer} = require('apollo-server-express')
 const mongoose = require('mongoose')
 
-const typeDefs = require('../server/schema/schema')
-const resolvers = require('../server/resolver/resolver')
+const typeDefs = require('../Demo_GraphQL/schema/schema')
+const resolvers = require('../Demo_GraphQL/resolver/resolver')
 
 const mongoDataMethods = require('./data/db')
 
